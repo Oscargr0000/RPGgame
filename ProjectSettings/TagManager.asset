@@ -45,11 +45,11 @@ TagManager:
   - name: MiddleGround
     uniqueID: 2029831861
     locked: 0
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: ForeGroud
     uniqueID: 2278056895
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Details
     uniqueID: 3233523821
