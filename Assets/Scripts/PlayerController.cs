@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
 
+    public string nextToUUID;
+
     public static bool playerCreated;
 
     private void Awake()

@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3619713635026632301, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3619713635026632301, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12218,7 +12218,7 @@ Transform:
   - {fileID: 1636543829}
   - {fileID: 224606779}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1413095643
 GameObject:
@@ -14966,7 +14966,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3619713635026632301, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3619713635026632301, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15010,6 +15010,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
+--- !u!1001 &1888174666
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5754667615568976932, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_Name
+      value: StartPoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.0578265
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.2694154
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976934, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5754667615568976935, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
+      propertyPath: uuid
+      value: Iglesia-Interior
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 37a056e103fcf4c4eb2d8bd4409bda1b, type: 3}
 --- !u!1001 &1978076874
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15020,6 +15081,10 @@ PrefabInstance:
     - target: {fileID: 3619713635026632296, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
       propertyPath: m_Name
       value: Teleport
+      objectReference: {fileID: 0}
+    - target: {fileID: 3619713635026632298, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
+      propertyPath: uuid
+      value: Village-Iglesia
       objectReference: {fileID: 0}
     - target: {fileID: 3619713635026632298, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
       propertyPath: sceneName
@@ -15035,7 +15100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3619713635026632301, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3619713635026632301, guid: 9e7c02bb9f168144d82fd31aaa36a78e, type: 3}
       propertyPath: m_LocalPosition.x

@@ -8,10 +8,17 @@ public class StartPoint : MonoBehaviour
 
     [SerializeField]private Vector2 facingDirection;
 
+    public string uuid; // uuid = universal unique identifier
+
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<PlayerController>();
+
+        if (!player.nextToUUID.Equals(uuid))
+        {
+            return;
+        }
 
         player.transform.position = this.transform.position;
 
